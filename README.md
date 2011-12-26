@@ -12,6 +12,7 @@ __Original Author__: Andreas Hein (http://www.h-ein.de/)
 Features:
 ---------
 Corresponds to 0.0.8 by Andreas Hein, except that:
+
 - Works also with JS deactivated
 - Compatible with Joomla! 1.6/1.7/2.5
 
