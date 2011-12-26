@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="1.6">
+	<name>Countdown</name>
+	<author>Andreas Hein</author>
+	<creationDate>2009-02-11</creationDate>
+	<copyright>(c) 2009 Andreas Hein</copyright>
+	<license>BSD</license>
+	<authorEmail>andreas@h-ein.de</authorEmail>
+	<authorUrl>http://www.h-ein.de/</authorUrl>
+	<version>0.0.8b</version>
+	<description>This module shows a simple countdown to a specified date</description>
+	<files>
+		<filename module="mod_ahcountdown">mod_ahcountdown.php</filename>
+		<filename module="mod_ahcountdown">mod_ahcountdown.js</filename>
+	</files>
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="date" type="calendar" default="2012-12-31" label="Date" description="Date to count to" />
+                <field name="time" type="text" size="10" default="23:59:59" label="Time" description="Time to count to (HH:MM:SS)" />
+				<field name="output" type="textarea" cols="40" rows="5" label="Countdown Format" default="&lt;div class=&quot;myCountdown&quot;&gt;&lt;br /&gt;[days]:[hours]:[minutes]:[seconds]&amp;lt;br /&amp;gt;&lt;br /&gt;(dd:hh:mm:ss)&lt;br /&gt;&lt;/div&gt;" description="HTML-tags allowed. Use the following parameters to set in the wanted values: [days], [hours], [minutes], [seconds]." />
+				<field name="showZeroCounter" type="radio" default="0" label="Show zero counter?" description="Show zero'd countdown or expired message?">
+					<option value="1">Show</option>
+					<option value="0">Hide</option>
+				</field>
+                <field name="expired" type="textarea" cols="40" rows="5" label="Expired Message" default="countdown expired" description="Message to display if coundown has expired." />
+            </fieldset>
+		</fields>
+	</config>
+</extension>
+
