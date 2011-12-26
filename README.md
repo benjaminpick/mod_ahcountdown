@@ -1,7 +1,7 @@
 Countdown
 =========
 
-A module for Joomla: This module shows a simple countdown to a specified date
+A module for Joomla: This module shows a simple countdown to a specified date.
 
 *Licence*: BSD<br>
 *Current Version*: 0.0.8b<br>
@@ -20,4 +20,4 @@ TODO:
 -----
 - Currently, only one countdown per page is possible.
 
-(Check for newer versions at https://github.com/benjamin4ruby/external_links_target)
+(Check for newer versions at https://github.com/benjamin4ruby/mod_ahcountdown)
