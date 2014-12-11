@@ -7,7 +7,7 @@
 	<license>BSD</license>
 	<authorEmail>andreas@h-ein.de</authorEmail>
 	<authorUrl>http://www.h-ein.de/</authorUrl>
-	<version>0.0.8c</version>
+	<version>0.0.9</version>
 	<description>This module shows a simple countdown to a specified date</description>
 	<files>
 		<filename module="mod_ahcountdown">mod_ahcountdown.php</filename>
