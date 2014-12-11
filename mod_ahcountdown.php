@@ -22,8 +22,8 @@ if (!defined('_JEXEC')) {
 }
 
 /* get TimezoneOffset */
-$config          =& JFactory::getConfig();
-$offset          =  $config->getValue('offset') * 60;
+$config          = JFactory::getConfig();
+$offset          =  $config->get('offset') * 60;
 
 /* get module params */
 $time            = $params->get('time');
@@ -93,7 +93,7 @@ if (time() < $toTime || $showZeroCounter) {
 	}
 	
 	/* put javascript into <head> */
-	$document = &JFactory::getDocument();
+	$document = JFactory::getDocument();
 	$document->addScript('modules/mod_ahcountdown/mod_ahcountdown.js');
 	
 	/* output */ ?>
